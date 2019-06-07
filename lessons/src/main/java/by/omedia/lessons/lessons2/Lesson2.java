@@ -1,6 +1,8 @@
 package by.omedia.lessons.lessons2;
 
 public class Lesson2 {
+	
+	public static int VARIABLE_EXAMPLE = 0;
 
 	public static void main(String[] args) {
 		int[]array = new int[3];
@@ -30,7 +32,7 @@ public class Lesson2 {
 		return (int)(Math.random()*(max-min+1)+min);
 	}
 	
-	public static void show(int[][]array){
+	protected static void show(int[][]array){
 		for(int row=0;row<array.length;row++){
 			for(int column=0;column<array[row].length;column++){
 				System.out.print(array[row][column]+" ");
@@ -39,7 +41,7 @@ public class Lesson2 {
 		}
 	}
 	
-	public static void show(int[]array){
+	protected static void show(int[]array){
 		int i = 0;
 		while(array.length!=i){
 			System.out.print(array[i]+" ");
@@ -47,7 +49,7 @@ public class Lesson2 {
 		};
 	}
 	
-	public static void show(char[]array){
+	protected static void show(char[]array){
 		int i = 0;
 		while(array.length!=i){
 			System.out.print(array[i]+" ");
