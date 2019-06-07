@@ -16,7 +16,10 @@ public class AnotherStringExample {
 		char2[3] = '!';
 		System.out.println(char2);
 		System.out.println(char2==chars);
-		
+		/*
+		 * Иллюстрация имутабельности стрингов
+		 * Стринги всегда будут уникальны
+		 */
 	}
 
 }

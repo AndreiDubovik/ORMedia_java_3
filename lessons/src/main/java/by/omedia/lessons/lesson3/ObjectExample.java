@@ -10,7 +10,6 @@ public class ObjectExample {
 		System.out.println(ob.equals(ob2));
 		ob.setName("another name");
 		System.out.println(ob.equals(ob2));
-
 	}
 
 }

@@ -60,6 +60,11 @@ public class Object{
 		return true;
 	}
 	
+	/*
+	 * Попробуйте зааннотировать аннотацией @Override метод hrllo в AnotherObject и раскоментить
+	 * метод ниже.
+	 * Потом снова его закомментить
+	 */
 	
 	/*
 	public void hello(){

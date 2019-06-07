@@ -2,10 +2,10 @@ package by.omedia.lessons.lesson3;
 
 public class AnotherObject extends by.omedia.lessons.lesson3.Object{
 
-	private String name;
+	private String name;//Этот параметр не задействован
 	
 	public AnotherObject(String name) {
-		super(name);
+		super(name);//Передача параметра вверх по иерархии наследования
 	}
 	
 	
