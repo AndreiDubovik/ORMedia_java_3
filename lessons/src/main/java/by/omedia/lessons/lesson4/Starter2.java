@@ -15,6 +15,9 @@ public class Starter2 {
 	
 	public static class StaticClass{
 		
+		/*
+		 * Пример статического класса
+		 */
 		public String toString(){
 			return "HELLO: "+this.hashCode();
 		}

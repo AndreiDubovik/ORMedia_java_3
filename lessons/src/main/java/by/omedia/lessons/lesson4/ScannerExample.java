@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class ScannerExample {
 
 	public static void main(String[] args) {
-		
+		/*
+		 * Пример использования сканера для запроса числа с консоли
+		 */
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Введите число:");
 		String line = sc.nextLine();

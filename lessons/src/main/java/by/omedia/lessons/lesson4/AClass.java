@@ -1,16 +1,28 @@
 package by.omedia.lessons.lesson4;
 
 public abstract class AClass implements ICanSayHello{
+	/*
+	 * класс абстрактный и поэтому нам необязательно переопределять
+	 * методы интерфейса - они будут переопределены в классах-наследниках
+	 */
 	
 	private static final int VALUE;
 	
 	static{
 		VALUE = 0;
 		System.out.println("point A");
+		/*
+		 * с помощью статических блоков инициализации можно
+		 * инициализировать статические поля
+		 */
 	}
 	
 	{
 		System.out.println("point a1");
+		/*
+		 * обычные блоки инициализации также используются для инициализации
+		 * полей, но уже - полей объекта (то есть не статических)
+		 */
 	}
 	
 	private String name;

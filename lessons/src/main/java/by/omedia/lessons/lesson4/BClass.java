@@ -16,6 +16,9 @@ public class BClass extends AClass implements ICanSaySomething{
 
 	@Override
 	public void hello() {
+		/*
+		 * переопределение метода интерфейса ICanSayHello
+		 */
 		System.out.println("hello");
 		
 	}
